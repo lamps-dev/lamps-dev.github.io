@@ -1,0 +1,60 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 400px;
+}
+
+
+#fade-in-move-element {
+    opacity: 0; /* Start with the element hidden */
+    transform: translateY(-20px); /* Start 20px above the original position */
+    animation: fadeInMove 1.5s ease-in forwards; /* 2 seconds animation */
+}
+
+@keyframes fadeInMove {
+    to {
+        opacity: 1; /* Fade in to full visibility */
+        transform: translateY(0); /* Move to the original position */
+    }
+}
+
+.profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.links a {
+    display: block;
+    color: #333;
+    text-decoration: none;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.links a:hover {
+    background-color: #e0e0e0;
+}

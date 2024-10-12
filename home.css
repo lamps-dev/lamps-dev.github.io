@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    background-color: rgb(36, 36, 36);
+}
+
+.heymsg {
+    font-family: 'Poppins';
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    margin-top: 0; /* Start from 0 for the animation */
+    opacity: 1; /* Start fully visible */
+    animation: fadeIn 2s forwards, moveDown 1.5s forwards;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes moveDown {
+    0% {
+        margin-top: 0;
+    }
+    100% {
+        margin-top: 72px;
+    }
+}
+
+#biggertext {
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+#biggertext2 {
+    font-size: 25px;
+    margin-top: 0px;
+}
+
+.heymsg2 {
+    font-family: 'Poppins';
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    margin-top: 0; /* Start from 0 for the animation */
+    opacity: 1; /* Start fully visible */
+    animation: fadeIn 2s forwards, moveDown2 1.5s forwards;
+}
+
+@keyframes moveDown2 {
+    0% {
+        margin-top: 0;
+    }
+    100% {
+        margin-top: -25px;
+    }
+}
+
+#copyright {
+    font-family: 'Poppins';
+    color: white;
+    margin-top: -100;
+}
+
+.heymsg3 {
+    font-family: 'Poppins';
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin-top: 0; /* Start from 0 for the animation */
+    opacity: 1; /* Start fully visible */
+    animation: fadeIn 2s forwards, moveDown3 1.5s forwards;
+}
+
+@keyframes moveDown3 {
+    0% {
+        margin-top: 0;
+    }
+    100% {
+        margin-top: 380px;
+        margin-right: 1500px;
+    }
+}
