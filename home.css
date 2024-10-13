@@ -86,3 +86,95 @@ body {
         margin-right: 1500px;
     }
 }
+
+#buttontext{
+    background: rgb(36, 36, 36);
+    border-style: double;
+    border-radius: 50px;
+    transition: background-color 0.3s ease;
+}
+
+#buttontext:hover{
+    background-color: azure;
+    cursor: pointer;
+}
+
+
+.heymsg4 {
+    font-family: 'Poppins';
+    font-size: 25px;
+    text-align: center;
+    margin-top: 0; /* Start from 0 for the animation */
+    opacity: 1; /* Start fully visible */
+    animation: fadeIn 2s forwards, moveDown4 1.5s forwards;
+}
+
+@keyframes moveDown4 {
+    0% {
+        margin-top: 40px;
+    }
+    100% {
+        margin-top: 0px;
+        margin-right: 0px;
+    }
+}
+
+#biggertext4 {
+    font-size: 25px;
+    margin-top: 0px;
+    margin-right: 700px;
+}
+
+
+.heymsg5 {
+    font-family: 'Poppins';
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    margin-top: 0; /* Start from 0 for the animation */
+    opacity: 1; /* Start fully visible */
+    animation: fadeIn 2s forwards, moveDown5 1.5s forwards;
+}
+
+@keyframes moveDown5 {
+    0% {
+        margin-top: 50px;
+    }
+    100% {
+        margin-top: 100px;
+    }
+}
+
+#biggertext5 {
+    font-size: 35px;
+    margin-top: 0px;
+    margin-right: 650px;
+}
+
+#biggertext6 {
+    font-size: 20px;
+    margin-top: 0px;
+    margin-right: 650px;
+}
+
+
+.heymsg6 {
+    font-family: 'Poppins';
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    margin-top: 0; /* Start from 0 for the animation */
+    opacity: 1; /* Start fully visible */
+    animation: fadeIn 2s forwards, moveDown6 1.5s forwards;
+}
+
+@keyframes moveDown6 {
+    0% {
+        margin-top: 0px;
+        margin-right: 650px;
+    }
+    100% {
+        margin-top: -10px;
+        margin-right: 710px;
+    }
+}

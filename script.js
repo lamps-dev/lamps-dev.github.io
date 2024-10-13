@@ -32,3 +32,13 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     });
 });
+
+
+
+function newspage() {
+    window.location.href = 'https://lamps-dev.is-a.dev/news';
+}
+
+function homepage() {
+    window.location.href = 'https://lamps-dev.is-a.dev/home';
+}
